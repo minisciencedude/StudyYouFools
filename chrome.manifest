@@ -1,0 +1,5 @@
+content studyyoufools chrome/content/
+
+overlay chrome://browser/content/browser.xul chrome://StudyYouFools/content/browserOverlay.xul
+
+
