@@ -1,0 +1,17 @@
+<?xml-stylesheet href="statsStyle.css" type="text/css"?>
+
+<window
+  title="Your browsing stats!"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <hbox id="globalcontainer">
+    <vbox id="Current session">
+    </vbox>
+
+    <vbox id="Overall">
+      Cumulative stats will go here!
+    </vbox>
+  </hbox>
+
+
+</window>

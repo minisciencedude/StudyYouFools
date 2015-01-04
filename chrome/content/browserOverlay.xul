@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<overlay id="studyyoufools-browser-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript"   src="chrome://studyyoufools/content/browserOverlay.js" />
+
+		<menupopup id="menu_ToolsPopup">
+		<menu id="studyyoufools-menu"
+			label="Study, you fools!"
+			accesskey="t">
+			<menupopup>
+				<menuitem id="studyyoufools-stats"
+					label="Statistics"
+					oncommand="STUDYyoufools.BrowserOverlay.printStats();"
+				/>
+			</menupopup>
+		</menu>
+	</menupopup>
+
+</overlay>
