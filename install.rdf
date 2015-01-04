@@ -5,9 +5,9 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>studyyoufools@marccataford.com</em:id>
-    <em:name>Placeholder</em:name>
-    <em:description>Placeholder</em:description>
-    <em:version>0.1</em:version>
+    <em:name>Study you fools</em:name>
+    <em:description>A simple extension that keeps track of your surfing habits and allows you to see where you waste your time when you should be studying.</em:description>
+    <em:version>0.1a</em:version>
     <em:creator>Marc</em:creator>
     <em:homepageURL>http://marccataford.com</em:homepageURL>
     <em:type>2</em:type>
