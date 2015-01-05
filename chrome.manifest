@@ -1,4 +1,4 @@
 content studyyoufools chrome/content/
 
 overlay chrome://browser/content/browser.xul chrome://StudyYouFools/content/browserOverlay.xul
-overlay chrome://browser/content/browser.xul chrome://StudyYouFools/content/statsDisplay.xul
+overlay chrome://browser/content/browser.xul chrome://StudyYouFools/content/statsDgithubisplay.xul

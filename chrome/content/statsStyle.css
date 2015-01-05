@@ -1,0 +1,22 @@
+#globalcontainer {
+  position: absolute;
+  width: 80%;
+  height: 70%;
+
+}
+
+#sessionStats {
+  background-color: #FFCCFF;
+  min-width: 30%;
+  min-height: 50%;
+  position: relative;
+  left: 20%;
+}
+
+#cumulStats {
+  background-color: #FFEEEE;
+  min-width: 30%;
+  min-height: 50%;
+  position: relative;
+  left: 20%;
+}

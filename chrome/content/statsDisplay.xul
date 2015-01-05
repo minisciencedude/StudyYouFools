@@ -5,12 +5,15 @@
   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
   <hbox id="globalcontainer">
-    <vbox id="Current session">
+
+    <vbox id="sessionStats">
+      <description>Statistics for this session.</description>
     </vbox>
 
-    <vbox id="Overall">
-      Cumulative stats will go here!
+    <vbox id="cumulStats">
+      <description>Cumulative statistics.</description>
     </vbox>
+
   </hbox>
 
 
