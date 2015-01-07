@@ -2,16 +2,42 @@
 
 <window
   title="Your browsing stats!"
-  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  onload="putStats();"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  xmlns:html="http://www.w3.org/1999/xhtml">
+
+  <script type="application/javascript" src="statsScript.js"/>
 
   <hbox id="globalcontainer">
 
-    <vbox id="sessionStats">
+    <vbox id="sessionStats" flex="1">
       <description>Statistics for this session.</description>
+        <listbox id="s_statslist" rows="10">
+          <listhead>
+            <listheader label="Website"/>
+            <listheader label="Visit count"/>
+          </listhead>
+          <listcols>
+          <listcol/>
+          <listcol flex="1"/>
+          </listcols>
+        </listbox>
+
+
     </vbox>
 
     <vbox id="cumulStats">
       <description>Cumulative statistics.</description>
+        <listbox id="c_statslist" rows="10">
+          <listhead>
+            <listheader label="Website"/>
+            <listheader label="Visit count"/>
+          </listhead>
+          <listcols>
+          <listcol/>
+          <listcol flex="1"/>
+          </listcols>
+        </listbox>
     </vbox>
 
   </hbox>
